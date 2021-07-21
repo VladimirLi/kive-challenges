@@ -1,4 +1,15 @@
-# Frame Extraction Challenge
+# 📹 Frame Extraction Challenge (node.js)
+
+## Challenge description:
+
+- Design a JavaScript function `getYoutubeFrames()` that:
+  - Takes a Youtube url as its input
+  - Fetches the video
+  - Extracts a frame from every scene/cut of the video (hint: use ffmpeg)
+  - Converts every frame to jpg format with maximum 800px width
+  - **Returns** a list of temp paths or base64 buffers
+
+## Solution description:
 
 `ytdl` package is used to download youtube video following the link. This is somewhat slow method, potential speedup can be achieved by download only video stream and/or video of lower quality.
 
