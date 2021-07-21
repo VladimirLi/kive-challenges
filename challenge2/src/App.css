@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  background-color: rgb(12, 12, 12);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+  font: 400 13.3333px Arial;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.display-container {
+  background-color: rgb(71, 66, 66);
+  margin-top: 10px;
+  border-radius: 3px;
+  box-shadow: 5px 5px #353434;
+  width: 400px;
+  min-height: 200px;
+}
+
+.input {
+  display: inline-block;
+  font-size: large;
+  padding: 8px 32px;
+  transition: background-color 0.5s ease 0s;
+  border-radius: 32px;
+  font-weight: 400;
+  display: inline-block;
+  border: 1px solid rgb(32, 32, 32);
+  box-shadow: rgb(0 0 0 / 80%) 0px 0px 0px 1px, rgb(0 0 0 / 10%) 0px 0px 8px 0px;
+  background: rgb(20, 20, 20);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  min-height: 60px;
+  margin: 8px;
+  padding: 0px 8px;
+  outline: none;
+}
