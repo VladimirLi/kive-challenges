@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.btn {
+  border-radius: 32px;
+  height: 60px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: inline-block;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 0px 32px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background: rgb(89, 48, 229);
+  outline: none;
+}
+
+.display-container {
+  background-color: rgb(71, 66, 66);
+  margin-top: 10px;
+  border-radius: 3px;
+  box-shadow: 5px 5px #353434;
+  min-height: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  border: 6px solid #f3f3f3; /* Light grey */
+  border-top: 6px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+}
+
+.img {
+  width: 400px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.input {
+  display: inline-block;
+  font-size: large;
+  padding: 8px 32px;
+  transition: background-color 0.5s ease 0s;
+  border-radius: 32px;
+  font-weight: 400;
+  display: inline-block;
+  border: 1px solid rgb(32, 32, 32);
+  box-shadow: rgb(0 0 0 / 80%) 0px 0px 0px 1px, rgb(0 0 0 / 10%) 0px 0px 8px 0px;
+  background: rgb(20, 20, 20);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  min-height: 60px;
+  min-width: 500px;
+  margin: 8px;
+  padding: 0px 8px;
+  outline: none;
+}
